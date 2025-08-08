@@ -1,0 +1,27 @@
+import { Hero } from './sections/Hero'
+import { About } from './sections/About'
+import { Destinations } from './sections/Destinations'
+import { WhyUs } from './sections/WhyUs'
+import { Testimonials } from './sections/Testimonials'
+import { CTA } from './sections/CTA'
+import { Payments } from './sections/Payments'
+import { Certificate } from './sections/Certificate'
+import { Footer } from './sections/Footer'
+
+export default function App() {
+  return (
+    <div className="font-sans antialiased">
+      <Hero />
+      <About />
+      <Destinations />
+      <WhyUs />
+      <Payments />
+      <Testimonials />
+      <Certificate />
+      <CTA />
+      <Footer />
+    </div>
+  )
+}
+
+// removed Vite starter demo
