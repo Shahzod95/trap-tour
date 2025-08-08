@@ -7,7 +7,7 @@ const payments = [
   {
     name: 'Payme',
     color: 'from-emerald-400 to-emerald-600',
-    bg: 'bg-emerald-500/10',
+    bg: 'bg-white',
     logo: payme,
     desc: 'Payme orqali tez va xavfsiz to‘lov. Humo/UZCARD/VISA kartalarini qo‘llab-quvvatlaydi.',
     cta: 'Payme bilan to‘lash',
@@ -15,7 +15,7 @@ const payments = [
   {
     name: 'Click',
     color: 'from-sky-400 to-sky-600',
-    bg: 'bg-sky-500/10',
+    bg: 'bg-white',
     logo: click,
     desc: 'Click ilovasi orqali qulay to‘lov: one-click va QR yordamida.',
     cta: 'Click bilan to‘lash',
