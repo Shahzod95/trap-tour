@@ -7,20 +7,25 @@ import { CTA } from './sections/CTA'
 import { Payments } from './sections/Payments'
 import { Certificate } from './sections/Certificate'
 import { Footer } from './sections/Footer'
+import { NavBar } from './components/NavBar'
+import { LanguageProvider } from './contexts/LanguageContext'
 
 export default function App() {
   return (
-    <div className="font-sans antialiased">
-      <Hero />
-      <About />
-      <Destinations />
-      <WhyUs />
-      <Payments />
-      <Testimonials />
-      <Certificate />
-      <CTA />
-      <Footer />
-    </div>
+    <LanguageProvider>
+      <div className="font-sans antialiased">
+        <NavBar />
+        <Hero />
+        <About />
+        <Destinations />
+        <WhyUs />
+        <Payments />
+        <Testimonials />
+        <Certificate />
+        <CTA />
+        <Footer />
+      </div>
+    </LanguageProvider>
   )
 }
 
