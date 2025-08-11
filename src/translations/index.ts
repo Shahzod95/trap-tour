@@ -9,7 +9,7 @@ export const translations = {
       contact: 'Bog\'lanish'
     },
     hero: {
-      title: 'Sayohatni hozirdan boshlang',
+      title: 'Dunyo bo\'ylab sayohat qiling',
       subtitle: 'Eng yaxshi sayohat tajribasi',
       cta: 'Boshlash'
     },
@@ -51,7 +51,7 @@ export const translations = {
       contact: 'Связаться'
     },
     hero: {
-      title: 'Путешествуйте по Узбекистану',
+      title: 'Путешествуйте по всему миру вместе с',
       subtitle: 'Лучший туристический опыт',
       cta: 'Начать'
     },
@@ -93,7 +93,7 @@ export const translations = {
       contact: 'Contact'
     },
     hero: {
-      title: 'Travel to Uzbekistan',
+      title: 'Travel around the world with',
       subtitle: 'Best travel experience',
       cta: 'Get Started'
     },
