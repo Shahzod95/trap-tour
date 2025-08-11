@@ -24,7 +24,7 @@ export function LanguageSwitcher() {
         </svg>
       </button>
       
-      <div className="absolute top-full right-0 mt-2 w-48 bg-white/10 backdrop-blur-lg rounded-2xl p-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+      <div className="absolute top-full right-0 mt-2 w-48 bg-white/30 backdrop-blur-lg rounded-2xl p-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
         {languages.map((lang) => (
           <button
             key={lang.code}
