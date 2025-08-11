@@ -44,15 +44,15 @@ export function LanguageSwitcher() {
       </button>
       
       {isOpen && (
-        <div className="absolute top-full right-0 mt-2 w-48 bg-white/30 backdrop-blur-lg rounded-2xl p-2 z-50">
+        <div className="absolute top-full right-0 mt-2 w-48 bg-white/50 backdrop-blur-lg rounded-2xl p-2 z-50">
           {languages.map((lang) => (
             <button
               key={lang.code}
               onClick={() => handleLanguageSelect(lang.code)}
               className={`w-full flex items-center gap-3 px-3 py-2 rounded-xl text-left transition-colors ${
                 language === lang.code 
-                  ? 'bg-brand-500 text-white' 
-                  : 'hover:bg-white/10 text-white/80 hover:text-white'
+                  ? 'bg-brand-500 text-black' 
+                  : 'hover:bg-white/10 text-black/80 hover:text-black'
               }`}
             >
               <span className="text-lg">{lang.flag}</span>
