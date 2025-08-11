@@ -66,6 +66,12 @@ export function Payments() {
     ]
   }
 
+  const headerTitle = {
+    uz: "To'lov usullari",
+    ru: 'Способы оплаты',
+    en: 'Payment methods'
+  }
+
   const subtitle = {
     uz: 'Payme va Click orqali onlayn to\'lov qiling',
     ru: 'Оплачивайте онлайн через Payme и Click',
@@ -76,7 +82,7 @@ export function Payments() {
     <section id="payments" className="relative py-24">
       <div className="container">
         <div className="text-center max-w-2xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold">To'lov usullari</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">{headerTitle[language]}</h2>
           <p className="text-white/70 mt-2">{subtitle[language]}</p>
         </div>
 
