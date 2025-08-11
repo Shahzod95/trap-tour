@@ -8,17 +8,17 @@ export function Hero() {
 
   const stats = {
     uz: [
-      ['100+', 'Mamnun mijoz'],
+      ['5000+', 'Mamnun mijoz'],
       ['120+', 'Hamkor mehmonxona'],
       ['1+', 'Yillik tajriba'],
     ],
     ru: [
-      ['100+', 'Довольных клиентов'],
+      ['5000+', 'Довольных клиентов'],
       ['120+', 'Партнерских отелей'],
       ['1+', 'Лет опыта'],
     ],
     en: [
-      ['100+', 'Happy Clients'],
+      ['5000+', 'Happy Clients'],
       ['120+', 'Partner Hotels'],
       ['1+', 'Years Experience'],
     ]
