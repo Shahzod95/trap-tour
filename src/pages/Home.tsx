@@ -8,20 +8,22 @@ import { Payments } from '../sections/Payments'
 import { Certificate } from '../sections/Certificate'
 import { Footer } from '../sections/Footer'
 import { NavBar } from '../components/NavBar'
+import { NotFound } from './NotFound'
 
 export function Home() {
   return (
-    <div className="font-sans antialiased">
-      <NavBar />
-      <Hero />
-      <About />
-      <Destinations />
-      <WhyUs />
-      <Payments />
-      <Testimonials />
-      <Certificate />
-      <CTA />
-      <Footer />
-    </div>
+    <NotFound />
+    // <div className="font-sans antialiased">
+    //   <NavBar />
+    //   <Hero />
+    //   <About />
+    //   <Destinations />
+    //   <WhyUs />
+    //   <Payments />
+    //   <Testimonials />
+    //   <Certificate />
+    //   <CTA />
+    //   <Footer />
+    // </div>
   )
 }
