@@ -18,7 +18,7 @@ export function Footer() {
           <span className="font-bold">TRAP TOUR</span>
           <span className="text-white/50">© {new Date().getFullYear()}</span>
         </div>
-        <div className="text-sm">{footerText[language]} <a className="text-brand-400" href="https://t.me/" target="_blank" rel="noreferrer">@trap_tour</a></div>
+        <div className="text-sm">{footerText[language]} <a className="text-brand-400"  href="mailto:info@trap-tour.uz" target="_blank" rel="noreferrer">info@trap-tour.uz</a></div>
       </div>
     </footer>
   )
